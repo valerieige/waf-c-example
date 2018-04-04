@@ -17,6 +17,10 @@ int main(int argc, char **argv) {
 
   fprintf(stdout, "%s", ":: bye.\n");
 
+  liba_goodbye();
+  fprintf(stdout, "%s", ":: calling liba_goodbye()...\n");
+
+
   return 0;
 }
 
